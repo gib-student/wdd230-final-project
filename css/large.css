@@ -1,4 +1,6 @@
+@media only screen and (min-width: 1000px) {
 #home-body {
     margin-left: 15%;
     margin-right: 15%;   
+}
 }

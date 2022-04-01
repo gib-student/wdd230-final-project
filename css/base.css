@@ -6,15 +6,16 @@
     display: none;
 }
 
-topnav a {
+.topnav a {
     color: white;
+    background-color: #333;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
 }
 
-topnav a.icon {
+.topnav a.icon {
     background: black;
     display: block;
     position: absolute;
@@ -26,5 +27,6 @@ topnav a.icon {
     color: black;
 }
 .active {
-
+    background-color: #04AA6D;
+    color: white;
 }
