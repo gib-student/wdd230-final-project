@@ -16,18 +16,35 @@
 </head>
 <body id="home-body">
     <header>
-        <div class="topnav">
-            <a href="index.html" class="active">Beam Energy</a>
-            <div id="links">
-                <a href="quote.html">Get a Quote</a>
-                <a href="contact.html">Contact Us</a>
-                <a href="faq.html">Frequently Asked Questions</a>
-            </div>
-            <a href="javascript:void(0);" class="icon">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+        <a id="logo-box" href="index.html">
+            <img id="logo" src="images/energy-logo.jpg" alt="Logo">
+            <h1>Beam Energy</h1>
+        </a>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#"><img src="https://img.icons8.com/ios-glyphs/30/000000/menu--v1.png"/></a></li>
+                <li><a href="quote.html">Get a Quote</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faq.html">Frequently Asked Questions</a></li>
+            </ul>
+        </nav>
     </header>
+    <!-- <header class="topnav">
+        <a href="index.html" class="active">
+            <div>
+                <img id="logo" src="images/energy-logo.jpg" alt="Beam Energy Logo">
+                <h2>Beam Energy</h2>
+            </div>
+        </a>
+        <div id="links">
+            <a href="quote.html">Get a Quote</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="faq.html">Frequently Asked Questions</a>
+        </div>
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </header> -->
     <main id="home-main">
         <div id="hero">
             <img src="https://via.placeholder.com/300" alt="Fayetteville Solar">
@@ -87,11 +104,18 @@
     </main>
     <footer>
         <div id="social">
-            <img  id="facebook-icon">
-            <img id="twitter-icon">
+            <a href="https://www.facebook.com/">
+                <img id="facebook-icon" src="images/facebook-img.png" 
+                    alt="Facebook icon">
+            </a>
+            <a href="https://twitter.com/">
+                <img id="twitter-icon" src="images/twitter.png" 
+                    alt="Twitter icon">
+            </a>
         </div>
         <p id="copyright">&copy; | <span id='copyright-year'>-</span> Beam Energy</p>
     </footer>
     <script src="js/index.js"></script>
+    <script src="js/responsive_nav.js"></script>
 </body>
 </html>

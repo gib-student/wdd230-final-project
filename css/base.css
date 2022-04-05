@@ -1,32 +1,76 @@
-.topnav {
-    overflow: hidden;
-    position: relative;
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Shippori+Antique&display=swap');
+body {
+    font-family: 'Questrial', sans-serif;
 }
-.topnav #links {
-    display: none;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Shippori Antique', sans-serif;
 }
-
-.topnav a {
-    color: white;
-    background-color: #333;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
+h1 {
+    text-align: center;
 }
-
-.topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.topnav a:hover {
-    background-color: #ddd;
+/* Header styles */
+a:link {
     color: black;
+    background-color: transparent;
+    text-decoration: none;
 }
-.active {
-    background-color: #04AA6D;
-    color: white;
+a:visited {
+    color: #878E88;
+    background-color: transparent;
+    text-decoration: none;
 }
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #f7cb15;
+    border-radius: 5px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	/* color: black; */
+	font-weight: 700;
+	transition: 0.2s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+#logo-box {
+    display: flex;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+#logo {
+    max-width: 110px;
+    margin: 0;
+    padding: 0;
+}
+#social img {
+    max-width: 40px;
+}
+
+
+/* Color pallete: https://coolors.co/f55d3e-878e88-f7cb15-ffffff-76bed0 */

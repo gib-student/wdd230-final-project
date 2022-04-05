@@ -1,6 +1,19 @@
 @media only screen and (min-width: 1000px) {
-#home-body {
-    margin-left: 15%;
-    margin-right: 15%;   
-}
+    #home-body {
+        margin-left: 15%;
+        margin-right: 15%;   
+    }
+    header {
+        display: flex;
+    }
+    h1 {
+        margin: auto;
+    }
+    nav {
+        margin: 40px;
+        width: 100%;
+    }
+    #logo {
+        max-width: 200px;
+    }
 }
