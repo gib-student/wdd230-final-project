@@ -71,6 +71,39 @@ nav {
 #social img {
     max-width: 40px;
 }
-
+#hero {
+    position: relative;
+    text-align: center;
+}
+#hero img {
+    margin: auto;
+}
+#hero p {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#hero button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#testimonies {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 1em 0 1em;
+    font-size: 1.8em;
+}
+#testimony-1 {
+    grid-column: 1/span 4;
+    grid-row: 1/span 1;
+}
+#testimony-2 {
+    text-align: right;
+    grid-column: 3/span 4;
+    grid-row: 2/span 1;
+}
 
 /* Color pallete: https://coolors.co/f55d3e-878e88-f7cb15-ffffff-76bed0 */
