@@ -13,7 +13,34 @@
         margin: 40px;
         width: 100%;
     }
+    #hero p {
+        font-size: 6em;
+        top: 5%;
+    }
+    #hero button {
+        font-size: 1.5em;
+        padding: .8em;
+    }
+    #hero img:nth-child(1) {
+        display: none
+    }
+    #testimonies {
+        font-size: 2.5em;
+    }
+    #testimony-1, #testimony-3 {
+        grid-column: 1/span 3;   
+    }
+    #testimony-2 {
+        grid-column: 4/span 3;
+    }
+    #hero img:nth-child(2) {
+        display: block;
+        max-width: auto;
+    }    
     #logo {
         max-width: 200px;
+    }
+    #quote label, #quote input {
+        font-size: 1.4em;
     }
 }

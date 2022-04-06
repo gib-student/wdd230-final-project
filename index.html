@@ -32,36 +32,47 @@
     <main id="home-main">
         <div id="hero">
             <img src="images/solar-panels.png" alt="Fayetteville Solar">
+            <img src="images/solar-panels-large.webp" alt="Fayetteville Solar">
             <p>Fayetteville is going Solar</p>
             <button>Join the Revolution</button>
         </div>
         <div id="testimonies">
             <p id="testimony-1">"Going solar has saved me SO much money on my 
-                energy bill.</p>
+                energy bill. - James</p>
             <p id="testimony-2">"I feel so good knowing that my family is using 
-                clean energy."
+                clean energy." - Lily
             </p>
+            <p id="testimony-3">"Beam Energy provided me with the best service I 
+                have ever received. They were efficient, clean, and considerate." 
+                - Jordan</p>
         </div>
         <div id="quote">
             <h2>Get a Quote</h2>
             <form>
                 <label for="fname">First name</label>
-                <input id="fname" name="fname" type="text">
+                <input id="fname" name="fname" type="text" required
+                    title="First name is required.">
     
                 <label for="lname">Last Name</label>
-                <input id="lname" name="lname" type="text">
+                <input id="lname" name="lname" type="text" required
+                    title="Last name is required.">
     
                 <label for="address">Address</label>
-                <input id="address" name="address" type="text">
+                <input id="address" name="address" type="text" required
+                    title="Address is required. We serve Cumberland, Harnett, Sampson, Bladen, Hoke, and Moore counties.">
     
                 <label for="cell">Phone number</label>
-                <input id="cell" name="cell" type="tel">
-    
+                <input id="cell" name="cell" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder="123-456-7890"
+                    title="Please enter in the format: 123-456-7890">
+                
                 <label for="email">Email</label>
                 <input id="email" name="email" type="email" 
-                    placeholder="johndoe@myemail.com">
+                    placeholder="johndoe@myemail.com" required
+                    title="Email is required.">
     
-                <input id="quote-submit" type="submit" value="Get a quote">
+                <input id="quote-submit" type="submit" value="Get a quote"
+                    title="Submit">
             </form>
         </div>
         <div id="reasons">
@@ -81,12 +92,14 @@
         </div>
         <div id="service">
             <h2>Award Winning Service</h2>
-            <img src="images/Better-Business-Bureau-Accreditation.jpg" alt="BBB accreddited business" id="accredited-business">
-            <img src="images/nabcep.png" alt="NABCEP Certified" id="award-1">
-            <img src="images/Google.webp" alt="Rated 5 stars on Google reviews" id="award-2">
+            <img src="images/Better-Business-Bureau-Accreditation.jpg" alt="BBB accreddited business" id="accredited-business"
+                title="Better Business Bureau Accredited Business">
+            <img src="images/nabcep.png" alt="NABCEP Certified" id="award-1"
+                title="NABCEP Certified">
+            <img src="images/Google.webp" alt="Rated 5 stars on Google reviews" id="award-2"
+                title="Rated 5 stars on Google reviews">
         </div>
     </main>
-    <hr id="main-footer-hr">
     <footer id="home-footer">
         <div id="social">
             <a href="https://www.facebook.com/">
@@ -98,7 +111,7 @@
                     alt="Twitter icon">
             </a>
         </div>
-        <p id="copyright">&copy; | <span id='copyright-year'>-</span> Beam Energy</p>
+        <p id="copyright">&copy; <span id='copyright-year'>-</span> Beam Energy</p>
     </footer>
     <script src="js/index.js"></script>
     <script src="js/responsive_nav.js"></script>

@@ -1,4 +1,7 @@
 @media only screen and (min-width: 800px) {
+	h2 {
+		font-size: 2em;
+	}
 	.navigation {
 		display: flex;
 	}
@@ -8,16 +11,34 @@
 	}
 	.navigation a {
 		text-align: center;
+		font-size: 1.5em;
+		border-right: 1px solid black;
+	}
+	.navigation li:last-child a{
+		border-right: none;
 	}
 	.navigation li:first-child {
 		display: none;
 	}
+	#hero button {
+		padding: 10px 15px 10px;
+	}
+	#testimonies p {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+	#quote {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 	#reasons div {
-		font-size: 2em;
-
+		font-size: 1.5em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	#reasons img {
-		max-width: 80px;
-		max-height: 80px;
+		max-width: 60px;
+		max-height: 60px;
 	}
 }
