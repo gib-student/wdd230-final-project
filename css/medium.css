@@ -12,4 +12,12 @@
 	.navigation li:first-child {
 		display: none;
 	}
+	#reasons div {
+		font-size: 2em;
+
+	}
+	#reasons img {
+		max-width: 80px;
+		max-height: 80px;
+	}
 }
