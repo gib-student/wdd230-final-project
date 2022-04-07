@@ -1,6 +1,7 @@
-// Copyright year
-const date = new Date();
-document.querySelector('#copyright-year').innerHTML = date.getFullYear().toString();
+// Hero button
+document.querySelector('.hero-btn').addEventListener('click', () => {
+  window.open('https://gib-student.github.io/wdd230-final-project/quote.html', '_blank');
+});
 
 // Slideshow
 let slideIndex = 1;

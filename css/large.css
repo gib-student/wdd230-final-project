@@ -1,5 +1,5 @@
 @media only screen and (min-width: 1000px) {
-    #home-body {
+    body {
         margin-left: 15%;
         margin-right: 15%;   
     }
@@ -42,5 +42,11 @@
     }
     #quote label, #quote input {
         font-size: 1.4em;
+    }
+    #directors {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .contact-card4 {
+        grid-column: 2/3;
     }
 }

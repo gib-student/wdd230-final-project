@@ -6,7 +6,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Shippori Antique', sans-serif;
 }
-#home-main {
+main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.5em;
@@ -291,5 +291,39 @@ nav {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* Get a quote page */
+#quote-reasons h2 {
+    text-align: center;
+}
+#quote-reasons p {
+    font-size: 1.2em;
+}
+#quote-reasons div {
+    text-align: center;
+
+}
+#quote-reasons img {
+    max-width: 700px;
+}
+
+/* Contact Us */
+#directors {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.card img {
+    max-width: 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px 5px 0 0;
+    margin: 1em 1em 1em;
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 /* Color pallete: https://coolors.co/f55d3e-878e88-f7cb15-ffffff-76bed0 */

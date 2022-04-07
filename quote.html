@@ -4,9 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Get a Quote - Beam Energy Solar</title>
+    <meta name="description" content="Get a quote for solar panels to be 
+        installed on your property.">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/gib-student/wdd230-final-project/main/images/energy-logo.jpg">
 </head>
 <body>
+    <header>
+        <a id="logo-box" href="index.html">
+            <img id="logo" src="https://via.placeholder.com/100" data-src="images/energy-logo.jpg" alt="Logo" >
+            <h1>Beam Energy</h1>
+        </a>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#"><img src="https://via.placeholder.com/40"
+                    data-src="https://img.icons8.com/ios-glyphs/30/000000/menu--v1.png"></a></li>
+                <li><a href="quote.html">Get a Quote</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faq.html">Frequently Asked Questions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="quote-main">
+        <div id="quote">
+            <h2>Get a Quote</h2>
+            <form>
+                <label for="fname">First name</label>
+                <input id="fname" name="fname" type="text" required
+                title="First name is required.">
+                
+                <label for="lname">Last Name</label>
+                <input id="lname" name="lname" type="text" required
+                title="Last name is required.">
+                
+                <label for="address">Address</label>
+                <input id="address" name="address" type="text" required
+                title="Address is required. We serve Cumberland, Harnett, Sampson, Bladen, Hoke, and Moore counties.">
     
+                <label for="cell">Phone number</label>
+                <input id="cell" name="cell" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder="123-456-7890"
+                    title="Please enter in the format: 123-456-7890">
+                    
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" 
+                    placeholder="johndoe@myemail.com" required
+                    title="Email is required.">
+                    
+                    <input id="quote-submit" type="submit" value="Submit"
+                    title="Submit">
+                </form>
+            </div>
+            <div id="quote-reasons">
+                <h2>Why go Solar?</h2>
+                <p>
+                    The sun is an incredible and renewable resource that has the 
+                    power to fuel life on earth and provide clean, sustainable 
+                    energy to all of its inhabitants.  In fact, more energy 
+                    from the sun reaches our planet in one hour than is used 
+                    by the entire population of the world in one year.  The 
+                    sun’s energy can be converted into electricity through 
+                    solar photovoltaic (PV) modules (photo = light, voltaic 
+                    = electricity).</p>
+                <div>
+                    <img src="https://via.placeholder.com/300" data-src="images/solar-energy.jpg"
+                        alt="Solar Energy" title="Solar energy is renewable">
+                </div>
+                <p>
+                    Going solar drastically reduces or even eliminates your 
+                    electric bills. Electricity costs can make up a large 
+                    portion of your monthly expenses. With a solar panel 
+                    system, you’ll generate free power for your system’s 
+                    entire 25+ year lifespan. Even if you don’t produce 
+                    100 percent of the energy you consume, solar still 
+                    reduces your utility bills, meaning you’ll save a 
+                    lot of money.
+                </p>
+                <p>
+                    Going solar helps avoid rising energy costs. Every 
+                    year, electricity prices continue to increase throughout 
+                    the country. By investing in a solar energy system now, 
+                    you can lock-in the price you pay for electricity today 
+                    in order to protect against future increases in electricity 
+                    costs.
+                </p>
+                <p>
+                    Going solar increases your property value. This one’s easy: 
+                    homes with solar sell for more than homes without. And when 
+                    you consider that solar allows you to reduce or eliminate 
+                    electricity bills, it’s easy to understand why: wouldn’t 
+                    you rather live somewhere without monthly utility bills? 
+                </p>
+                <p>
+                    Going solar nets you a great return on your investment.
+                     At the end of the day, solar is one of the best investments 
+                     you can make. The average American solar purchaser sees a 
+                     return on their investment (ROI) of 20 percent or more, with 
+                     most solar panel systems paying for themselves multiple times 
+                     over the course of their decades-long lifetime. Try getting 
+                     that ROI from stocks! 
+                </p>
+                <a href="https://www.energysage.com/solar/benefits-of-solar/"
+                style="color: blue;">Source</a>
+            </div>
+        </main>
+        <footer id="home-footer">
+            <div id="social">
+                <a href="https://www.facebook.com/">
+                <img id="facebook-icon" src="https://via.placeholder.com/40" data-src="images/facebook-img.png" 
+                    alt="Facebook icon">
+            </a>
+            <a href="https://twitter.com/">
+                <img id="twitter-icon" src="https://via.placeholder.com/40" data-src="images/twitter.png"
+                    alt="Twitter icon">
+            </a>
+        </div>
+        <p id="copyright">&copy; <span id='copyright-year'>-</span> Beam Energy</p>
+    </footer>
+    <script src="js/copyright.js"></script>
+    <script src="js/responsive_nav.js"></script>
+    <script src="js/lazy_loading.js"></script>
 </body>
 </html>
