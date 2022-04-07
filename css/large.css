@@ -49,4 +49,8 @@
     .contact-card4 {
         grid-column: 2/3;
     }
+    .inquiry-form {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
 }

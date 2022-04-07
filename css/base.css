@@ -15,6 +15,9 @@ main {
 h1 {
     text-align: center;
 }
+h2 {
+    text-align: center;
+}
 /* Header styles */
 a:link {
     color: black;
@@ -86,15 +89,15 @@ nav {
     border-radius: 5px;
 }
 #hero img:nth-child(2) {
-    display: none
+    display: none;
 }
 #hero p {
-    position: absolute;
+    position: absolute; 
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 1.7em; 
+    font-size: 1em; 
 }
 #hero button {
     position: absolute;
@@ -132,7 +135,7 @@ nav {
 #quote h2 {
     text-align: center;
 }
-#quote input {
+#quote input, .inquiry-form input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -142,7 +145,7 @@ nav {
     box-sizing: border-box;
     font-size: 1em;
 }
-#quote-submit {
+#quote-submit, .contact-submit {
     background-color: #76BED0;
     color: white;
     padding: 14px 20px;
@@ -325,5 +328,10 @@ nav {
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.inquiry-form {
+    background-color: #f2f2f2;;
+    font-size: 1em;
+    padding: 20px;    
 }
 /* Color pallete: https://coolors.co/f55d3e-878e88-f7cb15-ffffff-76bed0 */

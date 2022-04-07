@@ -44,4 +44,7 @@
 	#directors {
 		grid-template-columns: 1fr 1fr;
 	}
+	.inquiry-form {
+        font-size: 1.5em;
+    }
 }

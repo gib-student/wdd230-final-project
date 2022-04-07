@@ -29,9 +29,31 @@
         </nav>
     </header>
     <main id="contact-main">
-        <div id="directors">
+        <h2>Directors</h2>
+        <div id="directors"></div>
+        <h2>Contact Us</h2>
+        <form class="inquiry-form">
+            <label for="fname">First name:</label>
+            <input class="contact-input" id="fname" name="fname" type="text">
+            
+            <label for="lname">Last name:</label>
+            <input class="contact-input" id="lname" name="lname" type="text">
+            
+            <label for="subject">Subject: </label>
+            <input id="subject" name="subject" type="text" class="contact-input">
+            
+            <label for="callback-email">Your email: </label>
+            <input id="contact-email" name="contact-email" class="contact-input"
+                type="email" placeholder="johndoe@myemail.com">
+        
+            <label for="message">Message</label>
+            <div>
+                <textarea class="contact-input" id="message" name="message"></textarea>
 
-        </div>
+            </div>
+
+            <input class="contact-submit" type="submit" value="Submit">
+        </form>
     </main>
     <footer id="home-footer">
         <div id="social">
