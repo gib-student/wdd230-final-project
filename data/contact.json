@@ -1,0 +1,19 @@
+{
+    "directors": [
+        {
+            "name": "Aubrie Karl",
+            "email": "aubriekarl@beamenergy.net",
+            "image": "ellen.jpg"
+        },
+        {
+            "name": "Georgei Swati",
+            "email": "georgeiswati@beamenergy.net",
+            "image": "elon.webp"
+        },
+        {
+            "name": "Emelie Zebedaios",
+            "email": "aubriekarl@beamenergy.net",
+            "image": "woman-celeb.png"
+        }
+    ]
+}
