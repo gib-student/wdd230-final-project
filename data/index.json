@@ -1,0 +1,20 @@
+{
+    "images": [
+        {
+            "path": "california-solar-panel-law-2020-1024x538.jpg",
+            "caption": "Modern home with solar panels"
+        },{
+            "path": "house-with-solar-panels_shutterstock_161970119.jpg",
+            "caption": "Home with solar panels on entire roof"
+        },{
+            "path": "selling-a-house-with-leased-solar-panels.png",
+            "caption": "House with solar panels on a portion of the roof"
+        },{
+            "path": "solar_panels.webp",
+            "caption": "House with dark roof with solar panels on one side"
+        },{
+            "path": "maxresdefault.jpg",
+            "caption": "House with solar panels on nearly the entire roof"
+        }
+    ]   
+}
