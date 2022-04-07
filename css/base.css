@@ -22,7 +22,7 @@ a:link {
     text-decoration: none;
 }
 a:visited {
-    color: #878E88;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
@@ -202,10 +202,13 @@ nav {
 .dots {
     text-align: center;
 }
+#gallery-header {
+    text-align: center  ;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
-#slideshow {
+.slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
