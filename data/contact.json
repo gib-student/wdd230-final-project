@@ -2,23 +2,18 @@
     "directors": [
         {
             "name": "Aubrie Karl",
-            "email": "aubriekarl@mason.net",
-            "image": "jennifer.jpg"
+            "email": "aubriekarl@beamenergy.net",
+            "image": "ellen.jpg"
         },
         {
             "name": "Georgei Swati",
-            "email": "georgeiswati@mason.net",
-            "image": "joe-biden.jpg"
+            "email": "georgeiswati@beamenergy.net",
+            "image": "elon.webp"
         },
         {
             "name": "Emelie Zebedaios",
-            "email": "aubriekarl@mason.net",
-            "image": "hermione.png"
-        },
-        {
-            "name": "Horace Kimberleigh",
-            "email": "horacekimberleigh@mason.net",
-            "image": "Mace_Windu.png"
+            "email": "aubriekarl@beamenergy.net",
+            "image": "woman-celeb.png"
         }
     ]
 }

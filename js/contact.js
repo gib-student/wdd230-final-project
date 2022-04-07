@@ -1,5 +1,5 @@
 // Create directors' contacts
-fetch('https://raw.githubusercontent.com/gib-student/wdd230-Main/main/chamber/data/contact.json')
+fetch('https://raw.githubusercontent.com/gib-student/wdd230-final-project/main/data/contact.json')
 .then(response => response.json())
 .then (data => {
     let cardNum = 0;
@@ -15,7 +15,7 @@ fetch('https://raw.githubusercontent.com/gib-student/wdd230-Main/main/chamber/da
         // Add image content
         const path = data.directors[i].image;
         if (path != '') {
-            const imgUrl = 'https://raw.githubusercontent.com/gib-student/wdd230-Main/main/chamber/images/contact/' + path;
+            const imgUrl = 'https://raw.githubusercontent.com/gib-student/wdd230-final-project/main/images/Celebs/' + path;
             (async () => {
                 const response = await fetch(imgUrl);
                 const imageBlob = await response.blob();
