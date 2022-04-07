@@ -53,4 +53,11 @@
         margin-right: 10%;
         margin-left: 10%;
     }
+    #faq-main h3 {
+        font-size: 1.8em;
+    }
+    #faq-main p {
+        font-size: 1.5em;
+        margin-left: 2em;
+    }
 }

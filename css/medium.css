@@ -47,4 +47,10 @@
 	.inquiry-form {
         font-size: 1.5em;
     }
+	#faq-main #img-box img {
+		max-width: 600px;
+	}
+	#faq-main #img-box {
+		text-align: center;
+	}
 }
